@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		15DB68D31AE644B300ED4C0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB68D21AE644B300ED4C0F /* main.m */; };
 		15DB68D61AE644B300ED4C0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB68D51AE644B300ED4C0F /* AppDelegate.m */; };
-		15DB68D91AE644B300ED4C0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB68D81AE644B300ED4C0F /* ViewController.m */; };
-		15DB68DC1AE644B400ED4C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DB68DA1AE644B400ED4C0F /* Main.storyboard */; };
 		15DB68DE1AE644B400ED4C0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DB68DD1AE644B400ED4C0F /* Images.xcassets */; };
-		15DB68E11AE644B400ED4C0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15DB68DF1AE644B400ED4C0F /* LaunchScreen.xib */; };
 		15DB68ED1AE644B400ED4C0F /* BluetoothControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB68EC1AE644B400ED4C0F /* BluetoothControlTests.m */; };
+		15DB68F81AE73E2E00ED4C0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15DB68FA1AE73E2E00ED4C0F /* InfoPlist.strings */; };
+		15DB69051AE7494A00ED4C0F /* DeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB69041AE7494A00ED4C0F /* DeviceListViewController.m */; };
+		15DB69091AE74B3300ED4C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DB69071AE74B3300ED4C0F /* Main.storyboard */; };
+		F2B4E4AAADCD513166D1F1C1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4D7F49A2681A801AF368F8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +28,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F54B1EA11263BB949480A1E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		15DB68CD1AE644B300ED4C0F /* BluetoothControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15DB68D11AE644B300ED4C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15DB68D21AE644B300ED4C0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15DB68D41AE644B300ED4C0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15DB68D51AE644B300ED4C0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		15DB68D71AE644B300ED4C0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		15DB68D81AE644B300ED4C0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		15DB68DB1AE644B400ED4C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15DB68DD1AE644B400ED4C0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		15DB68E01AE644B400ED4C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		15DB68E61AE644B400ED4C0F /* BluetoothControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15DB68EB1AE644B400ED4C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15DB68EC1AE644B400ED4C0F /* BluetoothControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothControlTests.m; sourceTree = "<group>"; };
+		15DB68FB1AE73E8900ED4C0F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		15DB68FD1AE73EA300ED4C0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15DB69031AE7494A00ED4C0F /* DeviceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceListViewController.h; path = controller/DeviceListViewController.h; sourceTree = "<group>"; };
+		15DB69041AE7494A00ED4C0F /* DeviceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceListViewController.m; path = controller/DeviceListViewController.m; sourceTree = "<group>"; };
+		15DB69081AE74B3300ED4C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E4D7F49A2681A801AF368F8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC3876B225DB24751EA6B96 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B4E4AAADCD513166D1F1C1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +72,8 @@
 				15DB68CF1AE644B300ED4C0F /* BluetoothControl */,
 				15DB68E91AE644B400ED4C0F /* BluetoothControlTests */,
 				15DB68CE1AE644B300ED4C0F /* Products */,
+				75C5855689DD4CDF1F1A46D5 /* Pods */,
+				3AEA679AA548C3A6CAEC5BA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +89,12 @@
 		15DB68CF1AE644B300ED4C0F /* BluetoothControl */ = {
 			isa = PBXGroup;
 			children = (
+				15DB69021AE7491500ED4C0F /* controller */,
 				15DB68D41AE644B300ED4C0F /* AppDelegate.h */,
 				15DB68D51AE644B300ED4C0F /* AppDelegate.m */,
-				15DB68D71AE644B300ED4C0F /* ViewController.h */,
-				15DB68D81AE644B300ED4C0F /* ViewController.m */,
-				15DB68DA1AE644B400ED4C0F /* Main.storyboard */,
 				15DB68DD1AE644B400ED4C0F /* Images.xcassets */,
-				15DB68DF1AE644B400ED4C0F /* LaunchScreen.xib */,
 				15DB68D01AE644B300ED4C0F /* Supporting Files */,
+				15DB69071AE74B3300ED4C0F /* Main.storyboard */,
 			);
 			path = BluetoothControl;
 			sourceTree = "<group>";
@@ -98,6 +104,7 @@
 			children = (
 				15DB68D11AE644B300ED4C0F /* Info.plist */,
 				15DB68D21AE644B300ED4C0F /* main.m */,
+				15DB68FA1AE73E2E00ED4C0F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +126,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		15DB69021AE7491500ED4C0F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				15DB69031AE7494A00ED4C0F /* DeviceListViewController.h */,
+				15DB69041AE7494A00ED4C0F /* DeviceListViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		3AEA679AA548C3A6CAEC5BA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E4D7F49A2681A801AF368F8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75C5855689DD4CDF1F1A46D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECC3876B225DB24751EA6B96 /* Pods.debug.xcconfig */,
+				0F54B1EA11263BB949480A1E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15DB68F01AE644B400ED4C0F /* Build configuration list for PBXNativeTarget "BluetoothControl" */;
 			buildPhases = (
+				38C2FB48D1FD7E58718216A2 /* Check Pods Manifest.lock */,
 				15DB68C91AE644B300ED4C0F /* Sources */,
 				15DB68CA1AE644B300ED4C0F /* Frameworks */,
 				15DB68CB1AE644B300ED4C0F /* Resources */,
+				2D3BC3932D3C21EDEC28CFCD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +217,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 15DB68C41AE644B300ED4C0F;
 			productRefGroup = 15DB68CE1AE644B300ED4C0F /* Products */;
@@ -199,8 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15DB68DC1AE644B400ED4C0F /* Main.storyboard in Resources */,
-				15DB68E11AE644B400ED4C0F /* LaunchScreen.xib in Resources */,
+				15DB69091AE74B3300ED4C0F /* Main.storyboard in Resources */,
+				15DB68F81AE73E2E00ED4C0F /* InfoPlist.strings in Resources */,
 				15DB68DE1AE644B400ED4C0F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +250,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D3BC3932D3C21EDEC28CFCD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38C2FB48D1FD7E58718216A2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		15DB68C91AE644B300ED4C0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15DB68D91AE644B300ED4C0F /* ViewController.m in Sources */,
 				15DB68D61AE644B300ED4C0F /* AppDelegate.m in Sources */,
 				15DB68D31AE644B300ED4C0F /* main.m in Sources */,
+				15DB69051AE7494A00ED4C0F /* DeviceListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +313,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		15DB68DA1AE644B400ED4C0F /* Main.storyboard */ = {
+		15DB68FA1AE73E2E00ED4C0F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				15DB68DB1AE644B400ED4C0F /* Base */,
+				15DB68FB1AE73E8900ED4C0F /* zh-Hans */,
+				15DB68FD1AE73EA300ED4C0F /* en */,
 			);
-			name = Main.storyboard;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		15DB68DF1AE644B400ED4C0F /* LaunchScreen.xib */ = {
+		15DB69071AE74B3300ED4C0F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				15DB68E01AE644B400ED4C0F /* Base */,
+				15DB69081AE74B3300ED4C0F /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -345,21 +415,27 @@
 		};
 		15DB68F11AE644B400ED4C0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECC3876B225DB24751EA6B96 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BluetoothControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		15DB68F21AE644B400ED4C0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F54B1EA11263BB949480A1E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BluetoothControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +492,7 @@
 				15DB68F21AE644B400ED4C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15DB68F31AE644B400ED4C0F /* Build configuration list for PBXNativeTarget "BluetoothControlTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +501,7 @@
 				15DB68F51AE644B400ED4C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
