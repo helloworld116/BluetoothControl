@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <FIR/FIR.h>
 
 @interface AppDelegate ()
 
@@ -18,13 +19,13 @@
     didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
   [[UIApplication sharedApplication] setStatusBarHidden:NO];
-  //  [[UIApplication sharedApplication]
-  //      setStatusBarStyle:UIStatusBarStyleLightContent];
-  //  [[UINavigationBar appearance] setTitleTextAttributes:@{
-  //    NSFontAttributeName : [UIFont systemFontOfSize:22],
-  //    NSForegroundColorAttributeName : [UIColor whiteColor]
-  //  }];
-
+  [[UIApplication sharedApplication]
+      setStatusBarStyle:UIStatusBarStyleLightContent];
+  [[UINavigationBar appearance] setTitleTextAttributes:@{
+    NSFontAttributeName : [UIFont systemFontOfSize:20],
+    NSForegroundColorAttributeName : [UIColor whiteColor]
+  }];
+  [FIR handleCrashWithKey:@"c1d7fc6cf26abd1633e593267ef5094d"];
   return YES;
 }
 

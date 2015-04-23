@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ECSlidingViewController.h>
+#import "SlidingBaseTableViewController.h"
 
-@interface DeviceListViewController : UITableViewController
+@interface DeviceListViewController
+    : SlidingBaseTableViewController<ECSlidingViewControllerDelegate>
 
 @end

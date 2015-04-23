@@ -8,9 +8,13 @@
 
 #import "DeviceListViewController.h"
 #import <UIViewController+ECSlidingViewController.h>
+#import "MEZoomAnimationController.h"
+#import "SetNameViewController.h"
+#import <HexColors/HexColor.h>
 
 @interface DeviceListViewController ()
-
+@property (nonatomic, strong)
+    MEZoomAnimationController *zoomAnimationController;
 @end
 
 @implementation DeviceListViewController
@@ -19,13 +23,16 @@
   [super viewDidLoad];
 
   // Uncomment the following line to preserve selection between presentations.
-  self.navigationItem.leftBarButtonItem =
-      [[UIBarButtonItem alloc] initWithTitle:@"Menu"
-                                       style:UIBarButtonItemStylePlain
-                                      target:self
-                                      action:@selector(menuButtonAction:)];
   self.navigationItem.title = NSLocalizedString(@"列表", nil);
-  [self.view addGestureRecognizer:self.slidingViewController.panGesture];
+
+  self.zoomAnimationController = [[MEZoomAnimationController alloc] init];
+  id<ECSlidingViewControllerDelegate> transition = self.zoomAnimationController;
+  self.slidingViewController.delegate = transition;
+  self.slidingViewController.topViewAnchoredGesture =
+      ECSlidingViewControllerAnchoredGestureTapping |
+      ECSlidingViewControllerAnchoredGesturePanning;
+  self.slidingViewController.customAnchoredGestures = @[];
+
   UIView *view = [[UIView alloc] init];
   view.backgroundColor = [UIColor clearColor];
   self.tableView.tableFooterView = view;
@@ -58,60 +65,28 @@
   return cell;
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath
-*)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView
-commitEditingStyle:(UITableViewCellEditingStyle)editingStyle
-forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath]
-withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the
-array, and add a new row to the table view
-    }
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath
-*)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath
-*)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little
-preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
-- (void)menuButtonAction:(id)sender {
-  [self.slidingViewController anchorTopViewToRightAnimated:YES];
+#pragma mark
+- (IBAction)onOffAction:(id)sender {
+  NSIndexPath *indexPath = [self indexPathWithView:sender];
 }
 
+- (IBAction)nameAction:(id)sender {
+  NSIndexPath *indexPath = [self indexPathWithView:sender];
+  SetNameViewController *nameViewController = [self.storyboard
+      instantiateViewControllerWithIdentifier:@"SetNameViewController"];
+  nameViewController.devicename = @"小插座";
+  UINavigationController *nextVC = [[UINavigationController alloc]
+      initWithRootViewController:nameViewController];
+  nextVC.navigationBar.barTintColor = [UIColor colorWithHexString:@"3399ff"];
+  nextVC.navigationBar.tintColor = [UIColor whiteColor];
+  [self presentViewController:nextVC animated:YES completion:nil];
+}
+
+- (NSIndexPath *)indexPathWithView:(id)sender {
+  CGPoint buttonPosition =
+      [sender convertPoint:CGPointZero toView:self.tableView];
+  NSIndexPath *indexPath =
+      [self.tableView indexPathForRowAtPoint:buttonPosition];
+  return indexPath;
+}
 @end

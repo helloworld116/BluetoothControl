@@ -14,6 +14,17 @@
 		15DB68F81AE73E2E00ED4C0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15DB68FA1AE73E2E00ED4C0F /* InfoPlist.strings */; };
 		15DB69051AE7494A00ED4C0F /* DeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB69041AE7494A00ED4C0F /* DeviceListViewController.m */; };
 		15DB69091AE74B3300ED4C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DB69071AE74B3300ED4C0F /* Main.storyboard */; };
+		15DB690B1AE895E000ED4C0F /* FIR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DB690A1AE895E000ED4C0F /* FIR.framework */; };
+		15DB690D1AE8969300ED4C0F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DB690C1AE8969300ED4C0F /* SystemConfiguration.framework */; };
+		15DB69101AE8A48B00ED4C0F /* MEZoomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB690F1AE8A48B00ED4C0F /* MEZoomAnimationController.m */; };
+		15DB69131AE8CA0400ED4C0F /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB69121AE8CA0400ED4C0F /* MenuViewController.m */; };
+		15DB69161AE8CDB700ED4C0F /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB69151AE8CDB700ED4C0F /* SettingViewController.m */; };
+		15DB69191AE8CDDF00ED4C0F /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB69181AE8CDDF00ED4C0F /* HelpViewController.m */; };
+		15DB691C1AE8CDEF00ED4C0F /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB691B1AE8CDEF00ED4C0F /* AboutUsViewController.m */; };
+		15DB691F1AE8CF0900ED4C0F /* SlidingBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB691E1AE8CF0900ED4C0F /* SlidingBaseViewController.m */; };
+		15DB69221AE8CF3100ED4C0F /* SlidingBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB69211AE8CF3100ED4C0F /* SlidingBaseTableViewController.m */; };
+		15DB69261AE8F10200ED4C0F /* DeviceSocketCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB69251AE8F10200ED4C0F /* DeviceSocketCell.m */; };
+		15DB69291AE8F1BA00ED4C0F /* SetNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB69281AE8F1BA00ED4C0F /* SetNameViewController.m */; };
 		F2B4E4AAADCD513166D1F1C1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4D7F49A2681A801AF368F8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +54,26 @@
 		15DB69031AE7494A00ED4C0F /* DeviceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceListViewController.h; path = controller/DeviceListViewController.h; sourceTree = "<group>"; };
 		15DB69041AE7494A00ED4C0F /* DeviceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceListViewController.m; path = controller/DeviceListViewController.m; sourceTree = "<group>"; };
 		15DB69081AE74B3300ED4C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15DB690A1AE895E000ED4C0F /* FIR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIR.framework; sourceTree = "<group>"; };
+		15DB690C1AE8969300ED4C0F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		15DB690E1AE8A48B00ED4C0F /* MEZoomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEZoomAnimationController.h; path = ../MEZoomAnimationController.h; sourceTree = "<group>"; };
+		15DB690F1AE8A48B00ED4C0F /* MEZoomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEZoomAnimationController.m; path = ../MEZoomAnimationController.m; sourceTree = "<group>"; };
+		15DB69111AE8CA0400ED4C0F /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = controller/MenuViewController.h; sourceTree = "<group>"; };
+		15DB69121AE8CA0400ED4C0F /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = controller/MenuViewController.m; sourceTree = "<group>"; };
+		15DB69141AE8CDB700ED4C0F /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = controller/SettingViewController.h; sourceTree = "<group>"; };
+		15DB69151AE8CDB700ED4C0F /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = controller/SettingViewController.m; sourceTree = "<group>"; };
+		15DB69171AE8CDDF00ED4C0F /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpViewController.h; path = controller/HelpViewController.h; sourceTree = "<group>"; };
+		15DB69181AE8CDDF00ED4C0F /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpViewController.m; path = controller/HelpViewController.m; sourceTree = "<group>"; };
+		15DB691A1AE8CDEF00ED4C0F /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutUsViewController.h; path = controller/AboutUsViewController.h; sourceTree = "<group>"; };
+		15DB691B1AE8CDEF00ED4C0F /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutUsViewController.m; path = controller/AboutUsViewController.m; sourceTree = "<group>"; };
+		15DB691D1AE8CF0900ED4C0F /* SlidingBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidingBaseViewController.h; path = controller/SlidingBaseViewController.h; sourceTree = "<group>"; };
+		15DB691E1AE8CF0900ED4C0F /* SlidingBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlidingBaseViewController.m; path = controller/SlidingBaseViewController.m; sourceTree = "<group>"; };
+		15DB69201AE8CF3100ED4C0F /* SlidingBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidingBaseTableViewController.h; path = controller/SlidingBaseTableViewController.h; sourceTree = "<group>"; };
+		15DB69211AE8CF3100ED4C0F /* SlidingBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlidingBaseTableViewController.m; path = controller/SlidingBaseTableViewController.m; sourceTree = "<group>"; };
+		15DB69241AE8F10200ED4C0F /* DeviceSocketCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceSocketCell.h; path = view/DeviceSocketCell.h; sourceTree = "<group>"; };
+		15DB69251AE8F10200ED4C0F /* DeviceSocketCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceSocketCell.m; path = view/DeviceSocketCell.m; sourceTree = "<group>"; };
+		15DB69271AE8F1BA00ED4C0F /* SetNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetNameViewController.h; path = controller/SetNameViewController.h; sourceTree = "<group>"; };
+		15DB69281AE8F1BA00ED4C0F /* SetNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetNameViewController.m; path = controller/SetNameViewController.m; sourceTree = "<group>"; };
 		6E4D7F49A2681A801AF368F8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC3876B225DB24751EA6B96 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DB690D1AE8969300ED4C0F /* SystemConfiguration.framework in Frameworks */,
+				15DB690B1AE895E000ED4C0F /* FIR.framework in Frameworks */,
 				F2B4E4AAADCD513166D1F1C1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,6 +122,7 @@
 		15DB68CF1AE644B300ED4C0F /* BluetoothControl */ = {
 			isa = PBXGroup;
 			children = (
+				15DB69231AE8F0C900ED4C0F /* view */,
 				15DB69021AE7491500ED4C0F /* controller */,
 				15DB68D41AE644B300ED4C0F /* AppDelegate.h */,
 				15DB68D51AE644B300ED4C0F /* AppDelegate.m */,
@@ -129,15 +163,42 @@
 		15DB69021AE7491500ED4C0F /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				15DB690E1AE8A48B00ED4C0F /* MEZoomAnimationController.h */,
+				15DB690F1AE8A48B00ED4C0F /* MEZoomAnimationController.m */,
 				15DB69031AE7494A00ED4C0F /* DeviceListViewController.h */,
 				15DB69041AE7494A00ED4C0F /* DeviceListViewController.m */,
+				15DB69111AE8CA0400ED4C0F /* MenuViewController.h */,
+				15DB69121AE8CA0400ED4C0F /* MenuViewController.m */,
+				15DB69141AE8CDB700ED4C0F /* SettingViewController.h */,
+				15DB69151AE8CDB700ED4C0F /* SettingViewController.m */,
+				15DB69171AE8CDDF00ED4C0F /* HelpViewController.h */,
+				15DB69181AE8CDDF00ED4C0F /* HelpViewController.m */,
+				15DB691A1AE8CDEF00ED4C0F /* AboutUsViewController.h */,
+				15DB691B1AE8CDEF00ED4C0F /* AboutUsViewController.m */,
+				15DB691D1AE8CF0900ED4C0F /* SlidingBaseViewController.h */,
+				15DB691E1AE8CF0900ED4C0F /* SlidingBaseViewController.m */,
+				15DB69201AE8CF3100ED4C0F /* SlidingBaseTableViewController.h */,
+				15DB69211AE8CF3100ED4C0F /* SlidingBaseTableViewController.m */,
+				15DB69271AE8F1BA00ED4C0F /* SetNameViewController.h */,
+				15DB69281AE8F1BA00ED4C0F /* SetNameViewController.m */,
 			);
 			name = controller;
+			sourceTree = "<group>";
+		};
+		15DB69231AE8F0C900ED4C0F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				15DB69241AE8F10200ED4C0F /* DeviceSocketCell.h */,
+				15DB69251AE8F10200ED4C0F /* DeviceSocketCell.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 		3AEA679AA548C3A6CAEC5BA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15DB690C1AE8969300ED4C0F /* SystemConfiguration.framework */,
+				15DB690A1AE895E000ED4C0F /* FIR.framework */,
 				6E4D7F49A2681A801AF368F8 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -288,9 +349,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DB69221AE8CF3100ED4C0F /* SlidingBaseTableViewController.m in Sources */,
 				15DB68D61AE644B300ED4C0F /* AppDelegate.m in Sources */,
+				15DB69291AE8F1BA00ED4C0F /* SetNameViewController.m in Sources */,
+				15DB69101AE8A48B00ED4C0F /* MEZoomAnimationController.m in Sources */,
 				15DB68D31AE644B300ED4C0F /* main.m in Sources */,
+				15DB69261AE8F10200ED4C0F /* DeviceSocketCell.m in Sources */,
 				15DB69051AE7494A00ED4C0F /* DeviceListViewController.m in Sources */,
+				15DB691C1AE8CDEF00ED4C0F /* AboutUsViewController.m in Sources */,
+				15DB69191AE8CDDF00ED4C0F /* HelpViewController.m in Sources */,
+				15DB69131AE8CA0400ED4C0F /* MenuViewController.m in Sources */,
+				15DB69161AE8CDB700ED4C0F /* SettingViewController.m in Sources */,
+				15DB691F1AE8CF0900ED4C0F /* SlidingBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +489,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BluetoothControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +506,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BluetoothControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

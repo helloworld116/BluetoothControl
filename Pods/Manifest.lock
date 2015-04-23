@@ -1,10 +1,13 @@
 PODS:
   - ECSlidingViewController (2.0.3)
+  - HexColors (2.2.1)
 
 DEPENDENCIES:
   - ECSlidingViewController
+  - HexColors
 
 SPEC CHECKSUMS:
   ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
 
 COCOAPODS: 0.35.0
